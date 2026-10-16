@@ -31,11 +31,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,500;12..96,800&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
 <style>html{scroll-behavior:smooth}body{margin:0;background:#000}a{color:#F5A91B;text-decoration:none}a:hover{color:#fff}@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}@keyframes marquee{to{transform:translateX(-50%)}}</style>
-<style>input:focus-visible{outline:2px solid #000!important;outline-offset:2px}</style><style>@media(max-width:600px){header nav a[href="index.html"]{display:none}}</style></helmet>
+<style>input:focus-visible{outline:2px solid #000!important;outline-offset:2px}</style><style>@media(max-width:600px){header nav a[href="index.html"],header nav a[href="about.html"]{display:none}}</style></helmet>
 <div id="top" style="background:#000;color:#F4EBD9;font-family:'Bricolage Grotesque',sans-serif;min-height:100vh">
   <header style="position:fixed;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px clamp(20px,4vw,56px);background:rgba(0,0,0,.88);backdrop-filter:blur(8px);font-family:'DM Mono',monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase">
     <a href="index.html" aria-label="Mavanga home" style="display:flex;align-items:center"><img src="mavanga-icon-nav.png" alt="mavanga" style="height:48px;width:auto;display:block"></a>
-    <nav style="display:flex;gap:clamp(14px,3vw,40px);align-items:center;flex-wrap:wrap;justify-content:flex-end"><a href="index.html" style="color:#F5A91B">Home</a><a href="menu.html" style="color:#F5A91B">Menu</a><a href="delivery.html" style="color:#F5A91B">Delivery</a><a href="{{ orderHref }}" style="background:#F5A91B;color:#000;padding:10px 18px;border-radius:99px" style-hover="background:#fff;color:#000">Order{{ cartTag }}</a></nav>
+    <nav style="display:flex;gap:clamp(14px,3vw,40px);align-items:center;flex-wrap:wrap;justify-content:flex-end"><a href="index.html" style="color:#F5A91B">Home</a><a href="menu.html" style="color:#F5A91B">Menu</a><a href="about.html" style="color:#F5A91B">Our story</a><a href="delivery.html" style="color:#F5A91B">Delivery</a><a href="{{ orderHref }}" style="background:#F5A91B;color:#000;padding:10px 18px;border-radius:99px" style-hover="background:#fff;color:#000">Order{{ cartTag }}</a></nav>
   </header>
   <section id="order" style="background:#0a0a0a;border-block:1px solid #2a2a2a;padding:clamp(80px,12vw,140px) clamp(20px,4vw,56px)">
     <div style="max-width:1100px;margin:0 auto">
